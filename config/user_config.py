@@ -4,7 +4,7 @@ class UserConfigFile(ConfigFile):
     
     def __init__(self) -> None :
         super().__init__(
-            config_name='user.conf',
+            config_name='user.ini',
             default_config={
                 'username' : None,
                 'firstname' : None,

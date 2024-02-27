@@ -5,7 +5,7 @@ class ProgramConfigFile(ConfigFile):
     
     def __init__(self) -> None :
         super().__init__(
-            config_name='myapp.conf',
+            config_name='myapp.ini',
             default_config={
                 'max_workers' : cpu_count(),
                 'program_name' : 'myapp'
